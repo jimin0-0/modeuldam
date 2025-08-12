@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'SUIT', sans-serif !important;
+}
+
+
+
+/*  */
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+
+/* Product-card */
+.product-card {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.product-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+
+.icon-overlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .icon-overlay {
+  opacity: 1;
+}
+
+
+.icon-overlay button {
+  background: white;
+  border-radius: 50%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.icon-overlay button:hover {
+  background: #f0f0f0;
+}
+
