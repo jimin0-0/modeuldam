@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/modeuldam/static/css/main.24e4f58c.css",
+    "main.js": "/modeuldam/static/js/main.35577f05.js",
+    "static/js/453.e00c1106.chunk.js": "/modeuldam/static/js/453.e00c1106.chunk.js",
+    "index.html": "/modeuldam/index.html",
+    "main.24e4f58c.css.map": "/modeuldam/static/css/main.24e4f58c.css.map",
+    "main.35577f05.js.map": "/modeuldam/static/js/main.35577f05.js.map",
+    "453.e00c1106.chunk.js.map": "/modeuldam/static/js/453.e00c1106.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24e4f58c.css",
+    "static/js/main.35577f05.js"
+  ]
+}
