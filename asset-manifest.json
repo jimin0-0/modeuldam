@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/modeuldam/static/css/main.24e4f58c.css",
+    "main.css": "/modeuldam/static/css/main.83335c7e.css",
     "main.js": "/modeuldam/static/js/main.5c00d1cc.js",
     "static/js/453.e00c1106.chunk.js": "/modeuldam/static/js/453.e00c1106.chunk.js",
     "index.html": "/modeuldam/index.html",
-    "main.24e4f58c.css.map": "/modeuldam/static/css/main.24e4f58c.css.map",
+    "main.83335c7e.css.map": "/modeuldam/static/css/main.83335c7e.css.map",
     "main.5c00d1cc.js.map": "/modeuldam/static/js/main.5c00d1cc.js.map",
     "453.e00c1106.chunk.js.map": "/modeuldam/static/js/453.e00c1106.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24e4f58c.css",
+    "static/css/main.83335c7e.css",
     "static/js/main.5c00d1cc.js"
   ]
 }
