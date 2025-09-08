@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './ProductDetail.css';
 import TabInfo from './TabInfo';
 import TabReview from './TabReview';
 import TabQna from './TabQna';
@@ -7,6 +6,7 @@ import TabShipping from './TabShipping';
 import FloatingButtons from '../../components/FloatingButtons';
 import { useParams, Link } from 'react-router-dom';
 import productsData from '../../data/products.json';
+
 
 function ProductDetail() {
   const { id } = useParams();
@@ -39,12 +39,12 @@ function ProductDetail() {
 
       <div className="product-detail-content">
         <div className="product-detail-left">
-          <img src={product.image} alt={product.name} />
+          <img src={process.env.PUBLIC_URL +product.image} alt={product.name} />
           <div className="product-thumbnails">
-            <img src={product.image} alt="thumb1" />
-            <img src="/images/pro_detail1.jpg" alt="thumb2" />
-            <img src="/images/pro_detail2.jpg" alt="thumb3" />
-            <img src="/images/pro_detail3.jpg" alt="thumb4" />
+            <img src={process.env.PUBLIC_URL + product.image} alt="thumb1" />
+            <img src={process.env.PUBLIC_URL +"/images/pro_detail1.jpg"} alt="thumb2" />
+            <img src={process.env.PUBLIC_URL +"/images/pro_detail2.jpg"} alt="thumb3" />
+            <img src={process.env.PUBLIC_URL +"/images/pro_detail3.jpg"} alt="thumb4" />
           </div>
         </div>
 

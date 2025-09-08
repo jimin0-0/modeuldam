@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './ReviewList.css'; 
 import FloatingButtons from '../components/FloatingButtons';
 
 function Notice() {

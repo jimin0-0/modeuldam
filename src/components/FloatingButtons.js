@@ -74,7 +74,7 @@ function FloatingButtons() {
         title="카카오톡 채팅하기"
       >
         <img
-          src="/images/talk.png"
+          src={process.env.PUBLIC_URL + "/images/talk.png"}
           alt="카카오톡"
           style={{ width: '50px', height: '50px', objectFit: 'contain' }}
         />

@@ -24,7 +24,7 @@ function ProductCard({ product }) {
           }}
         >
           <img
-            src={product.image}
+            src={process.env.PUBLIC_URL + product.image}
             alt={product.name}
             className="product-image"
             style={{

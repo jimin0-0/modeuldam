@@ -46,7 +46,7 @@ function Header() {
 
           <Navbar.Brand as={Link} to="/">
             <img
-              src="/images/logo.png"
+              src={process.env.PUBLIC_URL + "/images/logo.png"}
               alt="로고"
               style={{ height: '40px', objectFit: 'contain' }}
             />

@@ -29,7 +29,7 @@ function Popup({ onClose }) {
       }}
     >
       <img
-        src="/images/popup.jpg"
+        src={process.env.PUBLIC_URL +"/images/popup.jpg"}
         alt="팝업"
         style={{ width: '100%', display: 'block' }}
       />

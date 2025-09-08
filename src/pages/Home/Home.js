@@ -9,7 +9,6 @@ import FloatingButtons from '../../components/FloatingButtons';
 import ReviewModal from './ReviewModal';
 import Review from "../../data/review.json";
 import productsData from '../../data/products.json';
-import './Home.css';
 import Popup from './Popup';
 
 
@@ -30,9 +29,9 @@ function RatingStars({ rating }) {
 function ReviewCard({ review }) {
   return (
     <div className="home-review-card">
-      <img src={review.image} alt={review.productName} className="home-review-main-img" />
+      <img src={process.env.PUBLIC_URL + review.image} alt={review.productName} className="home-review-main-img" />
       <div className="home-review-product-info">
-        <img src={review.productImage} alt="제품 썸네일" className="home-review-product-img" />
+        <img src={process.env.PUBLIC_URL + review.productImage} alt="제품 썸네일" className="home-review-product-img" />
         <div>
           <div className="home-review-product-name">{review.productName}</div>
           <div className="home-review-count">사용후기 {review.reviewCount}</div>
@@ -73,7 +72,7 @@ function Home() {
       {/* brand */}
       <section className="home-brand-story">
         <div className="home-brand-story-img">
-          <img src="/images/brand.png" alt="브랜드 자연 이미지" />
+          <img src={process.env.PUBLIC_URL + "/images/brand.png"} alt="브랜드 자연 이미지" />
         </div>
         <div className="home-brand-story-text">
           <p className="home-brand-subtitle">BRAND STORY</p>
@@ -84,7 +83,7 @@ function Home() {
             천 번의 손 주걱질로 완성하는 전통 방식을 고집합니다.<br />
             자연의 힘을 믿기에, 성분 하나하나 정직하게 담았습니다.
           </p>
-          <Link to="/about" className="home-brand-btn">브랜드 스토리 보러가기 &gt;</Link>
+          <Link to="/BrandStory" className="home-brand-btn">브랜드 스토리 보러가기 &gt;</Link>
         </div>
       </section>
 

@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import BrandStory from './components/BrandStory';
 import ReviewList from './components/ReviewList';
 import Notice from './components/Notice';
+import './style.css';
 
 
 function App() {

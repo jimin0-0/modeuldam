@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './ReviewList.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as fullStar } from '@fortawesome/free-solid-svg-icons';
 import { FaPaperclip } from 'react-icons/fa';  
@@ -59,7 +58,7 @@ function ReviewList() {
             <tr key={review.id}>
               <td>{review.id}</td>
               <td>
-                <img className="pro-img" src={review.productImage} alt="상품" />
+                <img className="pro-img" src={process.env.PUBLIC_URL + review.productImage} alt="상품" />
               </td>
               <td className="title-cell">
                 <div className="rv-product-name">{review.productName}</div>

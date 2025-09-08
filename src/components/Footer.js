@@ -85,7 +85,7 @@ const Footer = () => {
 
         <FooterTop>
           <FooterLogo>
-            <img src="/images/logo_white.png" alt="모들담 로고" />
+            <img src={process.env.PUBLIC_URL +"/images/logo_white.png"} alt="모들담 로고" />
           </FooterLogo>
         </FooterTop>
 
@@ -113,13 +113,13 @@ const Footer = () => {
         <FooterBottom>
           <span>SNS | </span>
           <a href="https://www.instagram.com/modeuldamsoap/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/insta.png" alt="Instagram" />
+            <img src={process.env.PUBLIC_URL +"/images/insta.png"} alt="Instagram" />
           </a>
           <a href="https://pf.kakao.com/_XxbFxdn" target="_blank" rel="noopener noreferrer">
-            <img src="/images/kakao.png" alt="KakaoTalk" />
+            <img src={process.env.PUBLIC_URL +"/images/kakao.png"} alt="KakaoTalk" />
           </a>
           <a href="https://blog.naver.com/modeuldam_jeju" target="_blank" rel="noopener noreferrer">
-            <img src="/images/blog.png" alt="Blog" />
+            <img src={process.env.PUBLIC_URL +"/images/blog.png"} alt="Blog" />
           </a>
         </FooterBottom>
 

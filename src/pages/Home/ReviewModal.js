@@ -187,7 +187,7 @@ export default function ReviewModal({ review, onClose }) {
     <Overlay>
       <ModalWrapper>
         <Left>
-          <img src={review.image} alt={review.productName} />
+          <img src={process.env.PUBLIC_URL + review.image} alt={review.productName} />
         </Left>
         <Right>
           <CloseBtn onClick={onClose}>
@@ -207,7 +207,7 @@ export default function ReviewModal({ review, onClose }) {
           <ReviewText>{review.content}</ReviewText>
 
           <ProductInfo>
-            <img src={review.productImage} alt="상품 썸네일" />
+            <img src={process.env.PUBLIC_URL + review.productImage} alt="상품 썸네일" />
             <span>{review.productName}</span>
           </ProductInfo>
 

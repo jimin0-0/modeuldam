@@ -64,7 +64,7 @@ function Banner() {
       {banners.map((b) => (
         <SwiperSlide key={b.id}>
           <SlideLink to={b.linkTo}>
-            <SlideImage src={b.image} alt={`배너${b.id}`} />
+            <SlideImage src={process.env.PUBLIC_URL + b.image} alt={`배너${b.id}`} />
           </SlideLink>
         </SwiperSlide>
       ))}

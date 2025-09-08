@@ -59,10 +59,10 @@ function VisualMain() {
         fadeEffect={{ crossFade: true }}
       >
         <SwiperSlide>
-          <SlideImage src="/images/visual1.jpg" alt="비주얼 이미지 1" />
+          <SlideImage src={process.env.PUBLIC_URL + "/images/visual1.jpg"} alt="비주얼 이미지 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <SlideImage src="/images/visual2.jpg" alt="비주얼 이미지 2" />
+          <SlideImage src={process.env.PUBLIC_URL + "/images/visual2.jpg"} alt="비주얼 이미지 2" />
         </SwiperSlide>
       </StyledSwiper>
     </VisualMainWrapper>

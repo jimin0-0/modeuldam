@@ -4,9 +4,9 @@ import { FaLock } from 'react-icons/fa';
 function TabQna() {
   const qna = [
     { id: 5, title: '제품문의', author: '윤***', date: '2025-07-29', views: 2, isReply: false },
-    { id: 4, title: '제품문의', author: '이***', date: '2025-06-26', views: 2, isReply: true },
+    { id: 4, title: '제품문의', author: '모들담', date: '2025-06-26', views: 2, isReply: true },
     { id: 3, title: '제품문의', author: '박***', date: '2025-05-15', views: 3, isReply: false },
-    { id:2, title: '제품문의', author: '정***', date: '2025-05-05', views: 4, isReply: true },
+    { id:2, title: '제품문의', author: '모들담', date: '2025-05-05', views: 4, isReply: true },
     { id: 1, title: '제품문의', author: '최***', date: '2025-04-20', views: 4, isReply: false },
   ];
 
