@@ -26,7 +26,7 @@ const FooterLogo = styled.div`
 `;
 
 const FooterNav = styled.nav`
-  width: 345px;
+  width: 360px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.726);
   margin-bottom: 10px;
